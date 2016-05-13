@@ -1,11 +1,8 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Greeter = require('Greeter');
+var App = require('App');
 
 
-
-var name = undefined
-var msg = 'FANEK'
 ReactDOM.render(
-    <Greeter name={name} message={msg}/>, document.getElementById('app')
+    <App name={"Replace Me (app/app.jsx)"}/>, document.getElementById('app')
     );

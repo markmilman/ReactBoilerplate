@@ -1,4 +1,4 @@
-var express = require('express')
+var express = require('express');
 
 //create our app
 
@@ -10,4 +10,4 @@ app.listen(3001, function () {
 
   console.log('Express server is up on port 3001');
 
-})
+});
